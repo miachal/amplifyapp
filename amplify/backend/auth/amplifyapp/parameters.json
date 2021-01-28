@@ -51,12 +51,10 @@
         ]
     },
     "serviceName": "Cognito",
-    "useDefault": "manual",
+    "useDefault": "default",
     "userPoolGroups": false,
     "userPoolGroupList": [],
     "adminQueries": false,
-    "thirdPartyAuth": false,
-    "authProviders": [],
     "usernameCaseSensitive": false,
     "dependsOn": []
 }

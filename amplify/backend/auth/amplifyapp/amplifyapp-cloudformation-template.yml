@@ -113,7 +113,6 @@ Parameters:
     Type: String
   
             
-            
   useDefault:
     Type: String
   
@@ -130,15 +129,6 @@ Parameters:
   adminQueries:
     Type: String
             
-            
-  
-  thirdPartyAuth:
-    Type: String
-            
-        
-  authProviders:
-    Type: CommaDelimitedList
-      
   
   usernameCaseSensitive:
     Type: String
@@ -147,6 +137,7 @@ Parameters:
   dependsOn:
     Type: CommaDelimitedList
       
+            
 Conditions:
   ShouldNotCreateEnvResources: !Equals [ !Ref env, NONE ]
 
