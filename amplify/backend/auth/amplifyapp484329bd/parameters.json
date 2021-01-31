@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "testAuthIdentityPool",
+    "identityPoolName": "amplifyapp484329bd_identitypool_484329bd",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplif37ba2c2b",
-    "userPoolName": "amplifyapp",
+    "resourceNameTruncated": "amplif484329bd",
+    "userPoolName": "amplifyapp484329bd_userpool_484329bd",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -18,12 +18,7 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-        "preferred_username",
-        "email",
-        "website",
-        "nickname",
-        "birthdate",
-        "updated_at"
+        "email"
     ],
     "userpoolClientGenerateSecret": true,
     "userpoolClientRefreshTokenValidity": 30,
@@ -33,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "amplif37ba2c2b_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "amplif484329bd_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "37ba2c2b",
-    "resourceName": "amplifyapp",
+    "sharedId": "484329bd",
+    "resourceName": "amplifyapp484329bd",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -50,11 +45,9 @@
             "Arn"
         ]
     },
-    "serviceName": "Cognito",
     "useDefault": "default",
-    "userPoolGroups": false,
     "userPoolGroupList": [],
-    "adminQueries": false,
+    "serviceName": "Cognito",
     "usernameCaseSensitive": false,
     "dependsOn": []
 }
